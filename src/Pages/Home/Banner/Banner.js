@@ -9,7 +9,7 @@ const Banner = () => {
                 <div className="hero-content flex-col lg:flex-row">
                     <img data-aos="fade-right" data-aos-duration='2000' alt="" className="h-[480px] w-[400px] rounded-lg shadow-2xl lg:mr-12 ring-2 ring-offset-4 dark:bg-gray-500 ring-violet-400 ring-offset-gray-800" src='https://i.ibb.co/VTL7FbY/p.jpg' />
                     <div>
-                        <h2 className='text-5xl mt-14'>Hi i am <span className='text-red-400'>Md mohsin Ahmed</span></h2>
+                        <h2 className='text-5xl mt-14'>Hi I Am <span className='text-red-400'>Md Mohsin</span></h2>
                         <div className='text-orange-400 mt-4'>
                             <TypeAnimation
                                 // Same String at the start will only be typed once, initially

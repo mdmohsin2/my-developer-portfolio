@@ -54,7 +54,7 @@ const Skils = () => {
                                     <p className='text-lg text-white mt-2'>MongoDB</p>
                                 </div>
                                 <div>
-                                    <span><div className="radial-progress text-warning " style={{ "--value": 80 }}>90%</div></span>
+                                    <span><div className="radial-progress text-warning " style={{ "--value": 80 }}>80%</div></span>
                                     <p className='text-lg text-white mt-2'>JWT</p>
                                 </div>
                             </div>

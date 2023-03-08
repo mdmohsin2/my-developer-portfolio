@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import AboutMe from "../Pages/AboutMe/AboutMe";
 import AutoCar from "../Pages/AllProjects/AutoCar/AutoCar";
+import CareerEdge from "../Pages/AllProjects/CareerEdge/CareerEdge";
 import ItInstitute from "../Pages/AllProjects/ItInstitute/ItInstitute";
 import PhotoBazar from "../Pages/AllProjects/PhotoBazar/PhotoBazar";
 import Blog from "../Pages/Blogs/Blog";
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
             {
                 path: '/about',
                 element: <AboutMe></AboutMe>
+            },
+            {
+                path: '/careeredge',
+                element: <CareerEdge></CareerEdge>
             },
             {
                 path: '/autocar',
